@@ -5,5 +5,6 @@
     --font-red: red;
     --color-primary: lightgrey;
 
-    --margin: 0 50em 0 50em;
+    --margin: 0 25em 0 25em;
+    --margin-thin: 0 0 0 10em;
 }

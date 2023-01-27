@@ -10,3 +10,18 @@
     writing-mode: vertical-rl;
     text-orientation: mixed;
 }
+
+.abonnement{
+    align-items: center;
+    gap: 3px;
+    color: var(--font-red);
+    font-family: var(--font-header)
+}
+
+.læsetid{
+    color: var(--color-primary)
+}
+
+.margin-thin{
+    margin: var(--margin-thin)
+}
