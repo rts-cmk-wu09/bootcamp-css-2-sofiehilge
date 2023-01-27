@@ -6,3 +6,21 @@
     color: var(--font-black);
     text-transform: uppercase;
 }
+
+.menu{
+    justify-content: center;
+}
+
+ul.flex{
+    justify-content: space-around;
+}
+
+li{
+    list-style-type: none;
+    font-family: var(--font-header);
+    font-weight: bold;
+}
+
+li:nth-child(3){
+    color: var(--font-red)
+}
