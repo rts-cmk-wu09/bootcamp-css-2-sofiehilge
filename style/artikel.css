@@ -25,3 +25,11 @@
 .margin-thin{
     margin: var(--margin-thin)
 }
+
+.aside-article{
+    flex-direction: column;
+}
+
+.jakob{
+    width: 30px
+}
