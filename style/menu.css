@@ -1,0 +1,8 @@
+.header{
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px var(--color-primary) solid;
+    font-family: var(--font-header);
+    color: var(--font-black);
+    text-transform: uppercase;
+}
