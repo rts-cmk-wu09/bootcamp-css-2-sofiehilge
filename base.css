@@ -36,3 +36,25 @@ main{
     margin: var(--margin)
 }
 
+/* -------abonnenter------ */
+
+.abonnenter{
+    flex-direction: column;
+    align-items: center;
+    font-family: var(--font-header);
+    word-break: break-word;
+    
+}
+
+.red-button{
+    background-color: var(--font-red);
+}
+
+.abon-grey{
+    color: var(--color-primary)
+}
+
+.abon-under{
+    color: var(--font-black);
+    text-decoration: underline
+}
