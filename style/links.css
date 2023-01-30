@@ -1,0 +1,16 @@
+.fik{
+    color: var(--font-red)
+}
+
+.fikdu{
+    margin: var(--margin)
+}
+
+.image{
+    width: 200vw;
+}
+
+.link-container{
+display: flex;
+justify-content: space-between;
+}

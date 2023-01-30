@@ -36,6 +36,21 @@ main{
     margin: var(--margin)
 }
 
+h2{
+    font-size: 18px;
+}
+
+h3{
+    font-family: var(--font-header);
+}
+
+hr{
+    border: 1px dashed var(--color-primary)
+}
+
+.grey{
+    color: var(--color-primary)
+}
 /* -------abonnenter------ */
 
 .abonnenter{
