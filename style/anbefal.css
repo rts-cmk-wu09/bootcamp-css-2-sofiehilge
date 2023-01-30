@@ -1,6 +1,7 @@
 .anbefal-container{
     flex-direction: row;
-    margin: var(--margin)
+    margin: var(--margin);
+    padding-bottom: 100px;
 }
 
 .anbefal{

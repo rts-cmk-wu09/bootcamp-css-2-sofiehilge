@@ -32,8 +32,8 @@ a{
     text-transform: uppercase;
 }
 
-main{
-    margin: var(--margin)
+h1{
+    margin-left: 5em
 }
 
 h2{
@@ -56,12 +56,21 @@ hr{
     color: var(--color-primary);
 }
 
+.darkgrey{
+    color: var(--color-darkgrey)
+}
+
 .red{
     color: var(--font-red);
 }
 
 .black{
     color: var(--font-black)
+}
+
+.shadow{
+    /* text-shadow: 2px 4px 4px var(--color-primary) */
+    text-shadow: 1px 1px white
 }
 .roboto{
     font-family: var(--font-header);

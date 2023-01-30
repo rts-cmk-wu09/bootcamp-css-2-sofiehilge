@@ -15,7 +15,8 @@
     align-items: center;
     gap: 3px;
     color: var(--font-red);
-    font-family: var(--font-header)
+    font-family: var(--font-header);
+    margin-left: 10em
 }
 
 .læsetid{
@@ -37,6 +38,7 @@
 .article-container{
 display: flex;
 position: relative;
+
 }
 
 button{
