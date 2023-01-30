@@ -44,13 +44,36 @@ h3{
     font-family: var(--font-header);
 }
 
+h4{
+    text-transform: uppercase;
+    font-family: var(--font-header);
+    color: var(--font-red)
+}
+
 hr{
     border: 1px dashed var(--color-primary)
 }
 
 .grey{
-    color: var(--color-primary)
+    color: var(--color-primary);
 }
+
+.red{
+    color: var(--font-red);
+}
+
+.roboto{
+    font-family: var(--font-header);
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.width{
+    margin: var(--margin);
+}
+
 /* -------abonnenter------ */
 
 .abonnenter{
