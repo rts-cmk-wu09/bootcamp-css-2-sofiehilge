@@ -45,9 +45,7 @@ h3{
 }
 
 h4{
-    text-transform: uppercase;
     font-family: var(--font-header);
-    color: var(--font-red)
 }
 
 hr{
@@ -62,6 +60,9 @@ hr{
     color: var(--font-red);
 }
 
+.black{
+    color: var(--font-black)
+}
 .roboto{
     font-family: var(--font-header);
 }
