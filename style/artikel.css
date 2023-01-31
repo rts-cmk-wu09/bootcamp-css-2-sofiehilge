@@ -2,44 +2,124 @@
     margin-left: auto;
     margin-right: auto;
     height: 200px;
-  width: 700px;
+  width: 900px;
   background-color: var(--color-primary)
 }
 
 .annonce{
     writing-mode: vertical-rl;
     text-orientation: mixed;
+    position: absolute;
+    right: 18vw;
+    top: 230px
 }
 
 .abonnement{
-    align-items: center;
-    gap: 3px;
+    gap: 10px;
     color: var(--font-red);
     font-family: var(--font-header);
-    margin-left: 10em
+    margin-left: 35vw
 }
 
 .læsetid{
-    color: var(--color-primary)
+    color: var(--color-primary);
+    padding-top: 5px;
 }
+
 
 .margin-thin{
     margin: var(--margin-thin)
 }
 
+.hero-text{
+    width: 45vw;
+    margin-left: 35vw
+}
+
+.caption{
+    margin-left: 7vw;
+    text-align: right;
+}
+
+
+.capicon{
+    position: absolute;
+    bottom: -70px;
+    margin-left: 17vw
+}
+
+.capname{
+    position: absolute;
+    bottom: -87px;
+    left: 400px;
+    
+}
+
+.middagsselskab{
+    margin-right: 18vw;
+   /*  margin-left: 10vw; */
+    width: 100%;
+}
+
+/* Aside article */
 .aside-article{
     font-family: var(--font-header);
+
 }
 
 .jakob{
-    width: 30px
+    width: 30px;
+    position: absolute;
 }
 
+.name-jakob{
+    position: absolute;
+    left: 30px;
+    bottom: 285px;
+}
+
+
+
+/* main article */
+.main-article{
+    margin-left: 6vw;
+}
+
+.fa-clock{
+    position: absolute;
+    bottom: 380px
+
+}
+
+.date{
+    position: absolute;
+    left: 200px;
+    
+}
+
+.fa-comments{
+    position: absolute;
+    left: 50vw;
+    bottom: 380px;
+    left: 660px
+}
+
+.kommentarer{
+    position: absolute;
+    left: 45vw;
+}
+
+.line{
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
 .article-container{
 display: flex;
 position: relative;
 
 }
+
+/* buttons */
 
 button{
     border: 0;
