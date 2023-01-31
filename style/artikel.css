@@ -36,6 +36,9 @@
     margin-left: 35vw
 }
 
+.help{
+    background-color: fuchsia;
+}
 .caption{
     margin-left: 7vw;
     text-align: right;
@@ -87,7 +90,7 @@
 
 .fa-clock{
     position: absolute;
-    bottom: 380px
+    bottom: 330px
 
 }
 
@@ -100,7 +103,7 @@
 .fa-comments{
     position: absolute;
     left: 50vw;
-    bottom: 380px;
+    bottom: 330px;
     left: 660px
 }
 
@@ -130,17 +133,25 @@ button{
 .facebook{
     background-color: #4267B2;
     margin-left: 400px;
+    position: absolute;
+    bottom: 260px
     
 }
 
 .tweet{
     background-color: #1DA1F2;
+    position: absolute;
+    bottom: 260px;
+    left: 630px;
 }
 
 .email{
     background-color: var(--color-primary);
+    position: absolute;
+    left: 700px;
+    bottom: 260px;
 }
-
+/* article text */
 .article{
         margin-bottom: 5px;
         padding-bottom: 5px;

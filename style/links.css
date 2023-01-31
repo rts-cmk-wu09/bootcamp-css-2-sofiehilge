@@ -1,7 +1,36 @@
 .fik{
-    color: var(--font-red)
+    color: var(--font-red);
+    position: absolute;
+    top: 1700px;
 }
 
+.fa-compass{
+    position: absolute;
+    top: 1723px;
+    left: 430px;
+}
+
+.fa-arrow-left{
+    position: absolute;
+    top: 1723px;
+    left: 1140px;
+    background-color: var(--color-primary);
+    color: white;
+    padding: 5px;
+    border-radius: 50%;
+}
+
+.fa-arrow-right{
+    position: absolute;
+    top: 1723px;
+    left: 1170px;
+    background-color: var(--color-primary);
+    color: white;
+    padding: 5px;
+    border-radius: 50%;
+}
+
+/* fik du læst links */
 .fikdu{
     margin: var(--margin)
 }
@@ -76,4 +105,16 @@ margin: var(--margin)
     grid-row: 3/ span 1;
     grid-column: 3/span 1;
     padding-right: 5px;
+}
+
+/* seneste nyt */
+
+.seneste{
+    position: absolute;
+    right: 750px
+}
+
+.infor{
+    position: absolute;
+    left: 750px;
 }
